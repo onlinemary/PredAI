@@ -22,20 +22,21 @@ This section focuses on predicting categorical labels using multi-class and bina
 * **Geometric Shape Classification:** * *Dataset:* Synthetically generated image data.
     * *Description:* Built a classifier to distinguish between basic geometric shapes (Circles vs. Rectangles).
 
-### 2. Clustering (Unsupervised Learning)
+
+### 2. Regression (Supervised Learning)
+This section focuses on predicting continuous numerical values.
+
+* **CO2 Emission Prediction:** * *Dataset:* Custom Excel dataset containing vehicle/industrial specifications.
+    * *Description:* Developed a regression model to estimate $CO_2$ production levels based on environmental and mechanical features.
+
+
+### 3. Clustering (Unsupervised Learning)
 This section explores finding hidden patterns in unlabeled data using clustering techniques.
 
 * **Digits Unsupervised Clustering:** * *Dataset:* `sklearn.datasets.load_digits`
     * *Description:* Grouped handwritten digit images into 10 distinct clusters without using their predefined labels to evaluate clustering accuracy.
 * **Synthetic Blobs Clustering:** * *Dataset:* `sklearn.datasets.make_blobs`
     * *Description:* Experimented with K-Means clustering on isotropic Gaussian blobs to understand cluster density and separation.
-
-### 3. Regression (Supervised Learning)
-This section focuses on predicting continuous numerical values.
-
-* **CO2 Emission Prediction:** * *Dataset:* Custom Excel dataset containing vehicle/industrial specifications.
-    * *Description:* Developed a regression model to estimate $CO_2$ production levels based on environmental and mechanical features.
-
 ---
 
 ## 🚀 Key Takeaways & Skills Developed
